@@ -33,7 +33,7 @@
         }
         section {
             margin: 20px auto;
-            max-width: 800px;
+            max-width: 900px;
             padding: 20px;
             background-color: #ffffff;
             border-radius: 8px;
@@ -53,6 +53,17 @@
             font-size: 0.9em;
             color: #777777;
         }
+        .character-card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .character-card img {
+            width: 100px; /* 设置角色图片宽度 */
+            height: auto; /* 高度自适应 */
+            border-radius: 50%; /* 圆形图片 */
+            margin-right: 15px; /* 图片与文本之间的间距 */
+        }
     </style>
 </head>
 <body>
@@ -63,31 +74,65 @@
         <a href="#about">关于银魂</a>
         <a href="#characters">主要角色</a>
         <a href="#moments">精彩瞬间</a>
+        <a href="#quotes">经典台词</a>
     </nav>
 </header>
 
 <section id="about">
     <h2>关于银魂</h2>
-    <p>《银魂》是一部由空知英秋创作的日本漫画，讲述了一个在幕末时代的虚构世界中，外星人和武士共存的故事。它以幽默和感人的情节而闻名。</p>
+    <p>《银魂》是一部由空知英秋创作的日本漫画，最初于2004年在《周刊少年Jump》上连载。故事设定在一个外星人统治的幕末时代，讲述了主人公坂田银时与他的伙伴们的搞笑冒险。作品以其幽默感、深刻的人物刻画和感人的情节而著称，赢得了众多粉丝的喜爱。</p>
+    <p>除了漫画外，《银魂》还被改编成了动画、电影和真人版，进一步拓展了其影响力。无论是搞笑片段还是感人的故事情节，都让人难以忘怀。</p>
+    <img src="https://example.com/path-to-your-image.jpg" alt="银魂海报">
 </section>
 
 <section id="characters">
     <h2>主要角色</h2>
-    <ul>
-        <li><strong>坂田银时</strong> - 主人公，外表懒散但内心正义。</li>
-        <li><strong>志村新八</strong> - 银时的朋友，忠诚的武士。</li>
-        <li><strong>神楽</strong> - 银时的搭档，拥有超人的力量。</li>
-    </ul>
+
+    <div class="character-card">
+        <img src="https://example.com/sakata-gintoki.jpg" alt="坂田银时">
+        <div>
+            <strong>坂田银时</strong>: 主人公，外表懒散但内心正义，经营着一个万事屋。
+        </div>
+    </div>
+
+    <div class="character-card">
+        <img src="https://example.com/shimura-shinachi.jpg" alt="志村新八">
+        <div>
+            <strong>志村新八</strong>: 银时的朋友，忠诚的武士，擅长剑术。
+        </div>
+    </div>
+
+    <div class="character-card">
+        <img src="https://example.com/kagura.jpg" alt="神楽">
+        <div>
+            <strong>神楽</strong>: 银时的搭档，拥有超人的力量和食量，是个活泼可爱的少女。
+        </div>
+    </div>
+
+    <div class="character-card">
+        <img src="https://example.com/katakuriko.jpg" alt="桂小太郎">
+        <div>
+            <strong>桂小太郎</strong>: 银时的朋友，反抗军领袖，以其幽默感和智慧著称。
+        </div>
+    </div>
+
 </section>
 
 <section id="moments">
     <h2>精彩瞬间</h2>
-    <img src="https://example.com/path-to-your-image.jpg" alt="银魂精彩瞬间">
-    <p>《银魂》中有许多令人难忘的瞬间，例如战斗场面、搞笑片段以及感人的剧情发展。</p>
+    <img src="https://example.com/path-to-your-moment-image.jpg" alt="银魂精彩瞬间">
+    <p>《银魂》中有许多令人难忘的瞬间，例如战斗场面、搞笑片段以及感人的剧情发展。这些瞬间不仅让人捧腹大笑，也让人感受到友情与勇气的重要性。</p>
+</section>
+
+<section id="quotes">
+    <h2>经典台词</h2>
+    <blockquote>"如果你想要改变世界，就要先改变自己。" - 坂田银时</blockquote>
+    <blockquote>"人生就像一场戏，不管你多么努力，最后都是要谢幕。" - 志村新八</blockquote>
+    <blockquote>"我会用我的方式保护我想保护的人！" - 神楽</blockquote>
 </section>
 
 <footer>
-    <p>&copy; 2024 银魂粉丝网站 | 联系我们：chengfeng2@ln.hk</p>
+    <p>&copy; 2024 银魂粉丝网站 | 联系我们：contact@example.com</p>
 </footer>
 
 </body>
